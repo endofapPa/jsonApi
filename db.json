@@ -1,44 +1,51 @@
-{ "dataorario":"05022020",
-  "corsi": [
-    {
-      "nome": "OP.EL 1",
-      "lezione":[
-        {
-          "giorno": 1,
-          "ora": 1,
-          "materia":"ITALIANO",
-          "formatore":"BARONE F.",
-          "aula":"P25"
-        },
-        {
-          "giorno": 1,
-          "ora": 2,
-          "materia":"MATEMATICA",
-          "formatore":"CASCINA.",
-          "aula":"P24"
-        }
-      ],
-  
-  },
-  {
-      "nome": "OP.EL 2",
-      "lezione":[
-        {
-          "giorno": 1,
-          "ora": 1,
-          "materia":"2ITALIANO",
-          "formatore":"2BARONE F.",
-          "aula":"P25"
-        },
-        {
-          "giorno": 1,
-          "ora": 2,
-          "materia":"2MATEMATICA",
-          "formatore":"2CASCINA.",
-          "aula":"P24"
-        }
-      ],
-  
-  }  
-  ]
+{
+	"dataorario":"02022020",
+	"corsi":
+	[
+		{
+			"nome":"OP.ELETTRICO 1",
+			"lezione":
+			[
+				{
+					"giorno":1,
+					"ora":1,
+					"formatore":"BARONE",
+					"materia":"ITALIANO",
+					"aula":"P25"
+				},
+				{
+					"giorno":1,
+					"ora":2,
+					"formatore":"CASCINA",
+					"materia":"MATEMATICA",
+					"aula":"P24"
+				}
+			]
+
+
+		},
+		{
+			"nome":"OP.ELETTRICO 2",
+			"lezione":
+			[
+				{
+					"giorno":1,
+					"ora":1,
+					"formatore":"2BARONE",
+					"materia":"ITALIANO",
+					"aula":"P26"
+				},
+				{
+					"giorno":1,
+					"ora":2,
+					"formatore":"2CASCINA",
+					"materia":"MATEMATICA",
+					"aula":"P23"
+				}
+			]
+
+
+		}
+
+	]
 }
