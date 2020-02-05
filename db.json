@@ -1,11 +1,44 @@
-{
-  "posts": [
+{ "dataorario":"05022020",
+  "corsi": [
     {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+      "nome": "OP.EL 1",
+      "lezione":[
+        {
+          "giorno": 1,
+          "ora": 1,
+          "materia":"ITALIANO",
+          "formatore":"BARONE F.",
+          "aula":"P25"
+        },
+        {
+          "giorno": 1,
+          "ora": 2,
+          "materia":"MATEMATICA",
+          "formatore":"CASCINA.",
+          "aula":"P24"
+        }
+      ],
+  
+  },
+  {
+      "nome": "OP.EL 2",
+      "lezione":[
+        {
+          "giorno": 1,
+          "ora": 1,
+          "materia":"2ITALIANO",
+          "formatore":"2BARONE F.",
+          "aula":"P25"
+        },
+        {
+          "giorno": 1,
+          "ora": 2,
+          "materia":"2MATEMATICA",
+          "formatore":"2CASCINA.",
+          "aula":"P24"
+        }
+      ],
+  
+  }  
+  ]
 }
